@@ -1,0 +1,50 @@
+/* This is a CSS comment. */
+
+h1 {
+	color: #FBB122;
+	font-family: Arial;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 50px;
+}
+
+h2 {
+	color: #cde123;
+	font-family: Arial;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+}
+
+div,p,ol,ul {
+	color: #aaaaaa;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+/* An ID is supposed to be used one time. We call an ID in CSS with # */
+
+#id_test {
+	color: yellow;
+	font-size: 50px
+}
+
+/* A class can be applied multiple times. We call a class in CSS with . */
+
+.class_test {
+	color: blue;
+	font-size: 50px
+}
+
+/* Pseudo-class selectors are a way of accessing html items that aren't part of the document. */
+
+.hover_test:hover {
+	font-size: 50px;
+	text-decoration: none;
+}
+
+a:visited {
+	background: black;
+	color: orange;
+}
+
+
+
